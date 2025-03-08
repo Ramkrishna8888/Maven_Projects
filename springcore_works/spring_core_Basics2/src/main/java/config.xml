@@ -21,5 +21,13 @@
  <property name="studentAddress" value="Ayodhya" />
  
  </bean>
+
+   <bean class="com.springcore.Student" name="student2" >
+ 
+<property name="studentId" value="5678"/>
+<property name="studentName" value="rai" />
+<property name="studentAddress" value="Banaras" /> 
+
+ </bean>
  
  </beans>
