@@ -9,27 +9,16 @@
  http://www.springframework.org/schema/context/spring-context.xsd">
  
  <!-- this is our bean -->
+ <!-- We can give values as an attribute as well rather than a using it as an element -->
  
- 
- <bean class="com.springcore.Student" name="student1">
+ <bean class="com.springcore.Student" name="student1"/>
   
- <property name="studentId">
-   <value>
-   1234
-   </value>  
- </property>
+ <property name="studentId" value="1234" />
 
- <property name="studentName">
-     <value>
-       Rajan pandey
-     </value>
- </property>
+ <property name="studentName" value="Ram Krishna Pandey" />
+
  
- <property name="studentAddress">
-     <value>
-       Ayodhya
-     </value>
- </property>
+ <property name="studentAddress" value="Ayodhya" />
  
  </bean>
  
