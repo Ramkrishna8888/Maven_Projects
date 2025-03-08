@@ -1,12 +1,12 @@
-<!-- Copy the bean configuration file from the spring documentation -->
-
 <?xml version="1.0" encoding="UTF-8"?>
  <beans xmlns="http://www.springframework.org/schema/beans"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
  
- <!-- this is our bean -->
+<!-- Copy the bean configuration file from the spring documentation -->
+  
+  <!-- this is our bean -->
  <!-- We can give values as an attribute as well rather than a using it as an element -->
  
  <bean class="com.springcore.Student" name="student1"/>
