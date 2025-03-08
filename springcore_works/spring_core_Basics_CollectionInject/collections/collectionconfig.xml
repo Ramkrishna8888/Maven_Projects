@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <!-- this is our bean -->
+ 
+ <bean name="emp1" class="com.springcore.collections.Emp"> 
+ <property name="name" value="Ram"></property>
+ 
+ <property name="phones">
+  <list>
+  
+  <!--  In case you're having just 1 value then you don't need 
+    to use the <List> </List> you can directly give value in <value> 12234 </value>
+    same goes for set -->
+  
+  <value>9563784228</value>
+  <value>1234567890</value>
+  <null></null>
+  </list>
+ </property>
+ 
+ <property name="addresses">
+ <set>
+ <value>Delhi</value>
+ <value>Lucknow</value>
+ </set>
+ </property>
+ 
+ <property name="courses">
+ <map>
+    <entry key="Java" value="2months"  />
+    <entry key="Python" value="3months" />
+ </map>
+ </property>
+ 
+ </bean>
+ 
+ 
+ 
+ </beans>
